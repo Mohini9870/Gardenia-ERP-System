@@ -1,0 +1,85 @@
+:root {
+	--custom-green: #198754;
+	--custom-white: #ffffff;
+	--custom-black: #000000;
+	--custom-red: #ca2c33;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: #41464b;
+}
+
+th,
+td {
+	padding: 8px 25px !important;
+}
+
+.page-link {
+	color: var(--custom-green);
+}
+
+.page-link:hover {
+	color: var(--custom-green);
+}
+
+.active > .page-link {
+	background-color: var(--custom-green);
+	border-color: var(--custom-green);
+	color: var(--custom-white);
+}
+
+.action-buttons {
+	color: var(--custom-black);
+	font-size: 0.9rem;
+	width: 100px;
+	padding: 10px 12px;
+}
+
+.action-buttons:hover {
+	background-color: none;
+}
+
+.color-white {
+	color: var(--custom-white);
+}
+
+/* hide scrollbar but allow scrolling */
+.nav-offcanvas {
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-y: scroll;
+}
+
+.nav-offcanvas::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+	width: 350px;
+	overflow-y: scroll;
+}
+
+.ant-notification-notice_success {
+	background-color: var(--custom-green);
+}
+
+.ant-notification-notice_error {
+	background-color: var(--custom-red);
+}
+
+.ant-notification-notice-message {
+	color: var(--custom-white) !important;
+	font-size: 1rem;
+}
+
+.ant-notification-notice-close {
+	color: var(--custom-white) !important;
+}
+
+.actionDropdown {
+	background-color: transparent;
+	border: none;
+	color: royalblue;
+}
